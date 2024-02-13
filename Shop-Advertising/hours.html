@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Taco Shop Hours</title>
+    <meta name="Little-Taco Shop Hours" content="We remain busy here">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Base styles for all devices */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('./img/02-09-24-100200.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .menu-body {
+            min-height: 100vh;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-body h1 {
+            margin-top: 20px;
+        }
+
+        .menu-body ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu-body img {
+            width: 250px;
+        }
+
+        .menu-body hr {
+            border-color: rgba(255, 255, 255, 0.5);
+            width: 80%; /* Adjust the width of the hr */
+            margin-top: 20px; /* Add margin top to create space */
+        }
+
+        /* Media queries for different screen sizes */
+        @media screen and (max-width: 768px) {
+            /* Styles for small screens (phones) */
+            .menu-body img {
+                width: 150px;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            /* Styles for medium screens (tablets) */
+            .menu-body img {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="menu-body">
+
+    <h1>Little Taco Shop Hours</h1>
+
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html#target">About LTS</a></li>
+        <li><a href="./index.html#Menu">Our Menu</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+
+    <img src="img/tacos_tray_400x267.png" alt="A Tray of Tasty Tacos">
+
+    <p>A Taco of Tasty Tacos</p>
+
+    <p>
+        We are open 7 days a week! <br/> <br/>
+        Sunday-Thursday <br/>
+        11am-9pm<br/>
+        Friday-Saturday<br/>
+        11am-11pm  <br/>
+    </p>
+
+    <a href="#top">Back to Top</a>
+
+    <hr/>
+
+    <p>Copyright &#169; The Little Taco Shop</p>
+
+</div>
+</body>
+</html>

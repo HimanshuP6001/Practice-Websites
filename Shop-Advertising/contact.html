@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <meta name="Little-Taco contact" content="We are 24x7 available here.">
+    <style>
+        /* Base styles for all devices */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+
+        .menu-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+            background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./img/02-09-24-100200.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white; /* Text color on top of the background */
+        }
+        
+
+        .menu-body h1 {
+            margin-top: 20px;
+        }
+
+        .menu-body ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu-body article {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+            border-radius: 10px;
+        }
+
+        .menu-body h2 {
+            margin-top: 20px;
+        }
+
+        .menu-body p {
+            text-align: center;
+            margin: 5px 0;
+        }
+
+        .menu-body a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: white; /* Link color on top of the background */
+        }
+
+        .menu-body hr {
+            margin-top: 20px;
+            border-color: rgba(255, 255, 255, 0.5); /* Transparent border color */
+        }
+    </style>
+</head>
+<body>
+<div class="menu-body">
+
+    <h1>Contact us</h1>
+
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html#arget">About LTS</a></li>
+        <li><a href="./index.html#Menu">Our Menu</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+
+    <article>
+        <div id="notification">
+            <p>Thank you for submitting the form!</p>
+        </div>
+
+        <form action="./all.html" method="post">
+            <h2>Our contact form</h2>
+            <fieldset>
+                <legend>Your message</legend>
+                <br/>
+
+                <label for="Name">Name</label>
+                <input type="text" name="name" id="Name" placeholder="Your name" autocomplete="on" required autofocus>
+                <br/><br/>
+
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="Email" placeholder="xyz@domain" autocomplete="email" required>
+                <br/><br/>
+
+                <label for="message">Your message :</label>
+                <br/>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your message here..."></textarea><br/>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </article>
+
+    <h2>Our Location</h2>
+
+    <p>555 Taco Temptation Lane,Suite T</p>
+    <p>Kansas City, MO 55555-5555</p>
+
+    <p>Phone: <a href="">555-555-5555</a></p>
+
+    <a href="#top">Back to Top</a>
+
+    <hr/>
+    <p>Copyright &#169; The Little Taco Shop</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.menu-html{
+    font-size : 22px;
+}
+
+
+.menu-body{
+    height :1200px;
+    min-height : 1vh;
+    width: 400px;
+    max-width : 1000px;
+    margin: 0 auto;
+    padding : 7rem;
+    border-left : 2px solid #333;
+    border-right : 2px solid #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid;
+}
+
+.menu-th,
+.menu-td,
+.menu-caption{
+    border : 1px solid #333;
+    font-family : 'Courier New', Courier,monospace;
+    border-collapse : separate;
+    padding : 0.5rem;
+
+}

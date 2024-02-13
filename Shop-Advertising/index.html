@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="Litle-Taco Home" content="Our Tasty foods are served here..">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Base styles for all devices */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        }
+
+        .menu-body {
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+            max-width: 800px; /* Limit maximum width of content */
+            margin: auto; /* Center the content horizontally */
+            overflow: hidden; /* Hide any overflowing content */
+        }
+
+        .menu-body h1 {
+            margin-top: 20px;
+        }
+
+        .menu-body ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu-body hr {
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Media queries for different screen sizes */
+        @media screen and (max-width: 768px) {
+            /* Styles for small screens (phones) */
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            /* Styles for medium screens (tablets) */
+        }
+    </style>
+</head>
+<body>
+<div class="menu-body">
+
+    <h1>Welcome to The Little Taco Shop</h1>
+
+    <ul>
+        <li><a href="#target">About LTS</a></li>
+        <li><a href="#Menu">Our Menu</a></li>
+        <li><a href="./hours.html">Store Hours</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+
+    <hr/>
+
+    <div id="target">
+        <h2>About LTS</h2>
+
+        <p>
+            LTS was founded in 2022. Our Shop was built from a <b>love of tacos</b> 🌮🌮🌮. We hope our hop adds a
+            unique and interesting place to our little Town.
+        </p>
+
+        <h3>Taco Trivia</h3>
+        <p>When did tacos first appear in the United States?</p>
+        <hr/>
+    </div>
+
+    <div id="Menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-html">
+            <table>
+                <tr>
+                    <th class="menu-td" colspan="3">Our Tacos</th>
+                </tr>
+                <tr>
+                    <th class="menu-th">Tacos</th>
+                    <th class="menu-th">Qty</th>
+                    <th class="menu-th">Price</th>
+                </tr>
+                <tr>
+                    <td class="menu-td" rowspan="3"><b>Crunchy</b></td>
+                    <td class="menu-td">1</td>
+                    <td class="menu-td">1.50&#36</td>
+                </tr>
+                <tr>
+                    <td class="menu-td">2</td>
+                    <td class="menu-td">2.50&#36</td>
+                </tr>
+                <tr>
+                    <td class="menu-td">3</td>
+                    <td class="menu-td">3.25&#36</td>
+                </tr>
+                <tr>
+                    <td class="menu-td" rowspan="3"><b>Soft</b></td>
+                    <td class="menu-td">1</td>
+                    <td class="menu-td">2.00&#36</td>
+                </tr>
+                <tr>
+                    <td class="menu-td">2</td>
+                    <td class="menu-td">3.50&#36</td>
+                </tr>
+                <tr>
+                    <td class="menu-td">3</td>
+                    <td class="menu-td">4.50&#36</td>
+                </tr>
+                <tr>
+                    <th class="menu-td" colspan="3">Chips and Salsa 2&#36</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <a href="#top">Back to Top</a>
+    <hr/>
+    <p>Copyright &#169; The Little Taco Shop</p>
+</div>
+</body>
+</html>

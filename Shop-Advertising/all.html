@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('./img/16-09-24-091625.png'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .blurry-box {
+            width: 80%; /* Adjust width */
+            max-width: 400px; /* Set maximum width */
+            background: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+            backdrop-filter: blur(10px); /* Add blur effect */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px; /* Adjust font size */
+            color: #130606; /* Set font color */
+        }
+      
+        .blurry-box p {
+            margin: 10px 0; /* Add some space between paragraphs */
+        }
+
+        /* Media queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            .blurry-box {
+                width: 90%; /* Adjust width for smaller screens */
+                font-size: 16px; /* Adjust font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="blurry-box">
+        <p>Thank you for giving a look :)</p>
+        <p>We will surely respond to your request.</p>
+        <p>&#x1F60A</p>
+    </div>
+</body>
+</html>
